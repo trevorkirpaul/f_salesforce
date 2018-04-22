@@ -6,17 +6,66 @@
 }
 
 body {
-  background: papayawhip;
-  color: palevioletred;
+  background: #F5FBEF;
+  color: #383838;
   font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 h1 {
-  font-family: sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 4em;
+  font-weight: 600;
+  color: #503D42;
+  margin-bottom: 0.5em;
 }
 
-.panel {
-  padding: 15;
-  margin: 25;
-  border: 1px solid #383838;
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #383838;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+p {
+  color: #383838;
+  font-family: 'Roboto', sans-serif
+}
+
+body .panel {
+  padding: 15px;
+  margin: 25px;
+}
+
+body .blogPost h2 {
+  display: inline-block;
+  border-bottom: 1px solid #383838;
+  padding-bottom: 5px;
+}
+
+body .blogPost p {
+  line-height: 2em;
+  max-width: 700px;
+  margin-bottom: 2em;
+}
+
+footer {
+  background: #383838;
+  color: #84C318;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px 10px;
+  margin: 0;
+}
+
+footer p {
+  color: #84C318;
+  font-family: 'Roboto', sans-serif;
 }
