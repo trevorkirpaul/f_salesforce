@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background: papayawhip;
+  color: palevioletred;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.panel {
+  padding: 15;
+  margin: 25;
+  border: 1px solid #383838;
+}
